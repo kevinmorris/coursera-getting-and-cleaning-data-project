@@ -11,4 +11,4 @@ run_analysis()
 
 The function returns a list containing two values.  The first, $data, contains parts 1 through 4 of the project which is the cleaning of the original UCI HAR Dataset.  The second item in the list, $summary contains part 5 of the project: the second independent dataset with the averages of the subject/activity group.
 
-the function takes an optional parameter, dir, that specifies the root of the UCI HAR Dataset.  The parameter defaults to the current directy and assumes that the script resides in the same directory as the data.
+the function takes an optional parameter, ```dir```, that specifies the root of the UCI HAR Dataset.  The parameter defaults to the current directory and assumes that the script resides in the same directory as the data.
