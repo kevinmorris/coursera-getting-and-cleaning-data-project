@@ -128,6 +128,10 @@ run_analysis <- function(dir=".") {
   #5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
   summary <- create_summary_statistics(split(data, data[c("Subject", "Activity")]))
   
+  #--- Write the data to text files in the current directory ---
+  write.table(data, "analysis.txt")
+  write.table(summary, "analysis_average_subject_activity.txt")
+  
   #--- Return a list containing both the raw dataset for requirements 1 through 4 and a summary set for requirement 5 ---
   list(data=data, summary=summary)
 }
