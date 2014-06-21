@@ -1,0 +1,5 @@
+./test/Inertial\ Signals/*
+./train/Inertial\ Signals/*
+./activity_labels.txt
+./README.txt
+./names.R
